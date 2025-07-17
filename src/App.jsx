@@ -4,14 +4,25 @@ import viteLogo from '/vite.svg'
 import Header from './Header'
 
 import './App.css'
+import Navbar from './Navbar.jsx'
+
 
 function App() {
   
   return (
     <>
+
     <div>
       <Header />
     </div>
+    
+      <div> 
+
+<Navbar/>
+    
+        <h1>Tigers Project</h1>
+ 
+      </div>
      
     </>
   )
